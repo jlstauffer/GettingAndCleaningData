@@ -6,12 +6,12 @@ variables by mean or standard deviation of particular measurements. The
 resultant data set is the average of each variable by subject and activity.
 
 For additional information about the specific measurements taken in these
-trials, refer to the README and features_info files in the original dataset here
+trials, refer to the README and features_info files in the original dataset here:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 To read this file into R, use the read.table() function with header = TRUE.
 
-180 rows
+180 rows (30 subjects x 6 activities)
 
 50 columns
 
