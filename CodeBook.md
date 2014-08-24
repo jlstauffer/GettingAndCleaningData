@@ -1,4 +1,4 @@
-CodeBook for tidyDataAverages.txt produced by run_analysis
+#CodeBook for tidyDataAverages.txt produced by run_analysis
 
 This data set is based on measurements taken from smartphone-enabled inertial
 sensors. 30 people were tested doing 6 different activities using 48 different
@@ -12,10 +12,15 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 To read this file into R, use the read.table() function with header = TRUE.
 
 180 rows
+
 50 columns
 
-Columns:
+##Columns:
+
 ActivityName (character) - the type of activity that was performed
+
 SubjectID (integer) - a number between 1 and 30 representing a particular person performing the activities
+
 Average_[measurename]_mean_XYZ (numeric) - the average of that particular mean measurement on the X, Y, or Z axis. Units are specific to the particular measurement (acceleration, angular velocity, etc.). Refer to features_info file in original data set.
+
 Average_[measurename]_standard_deviation_XYZ - the average of that partciular standard deviation measurement on the X, Y, or Z axis. Units are specific to the particular measurement. Refer to features_info file in original data set.
