@@ -9,6 +9,8 @@ For additional information about the specific measurements taken in these
 trials, refer to the README and features_info files in the original dataset here
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
+To read this file into R, use the read.table() function with header = TRUE.
+
 180 rows
 50 columns
 
