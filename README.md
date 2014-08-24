@@ -1,5 +1,5 @@
-GettingAndCleaningData
-======================
+#GettingAndCleaningData README
+
 
 Course project for the Coursera class "Getting and Cleaning Data" in the Data Science track.
 
@@ -11,6 +11,7 @@ randomly separated into two groups, test and train, which have similarly
 structured files.
 
 run_analysis() performs the following steps:
+
 1. Downloads and unzips the data file.
 2. Reads in the files that will serve as data labels.
 3. Determines which measure labels will be used. For this assignment, only
